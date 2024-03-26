@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext"
+    "module": "ESNext",
+    "outDir": "dist", //
+    "strict": true, //타입 검사를 엄격하게 권장하는 옵션
+    "moduleDetection": "force" // 타입스크립트가 각각의 파일을 어떤 모듈로 감지할것인지를 결정하는 옵션
   },
   "include": ["src"]
 }

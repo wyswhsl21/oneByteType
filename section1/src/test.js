@@ -1,4 +1,4 @@
 console.log("Hello Test");
-const func = () => {
+const hello = () => {
     console.log("test");
 };

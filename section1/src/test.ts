@@ -1,5 +1,5 @@
 console.log("Hello Test");
 
-export const test = () => {
-  console.log("test");
+export const test = (message: string) => {
+  console.log("test" + message);
 };
