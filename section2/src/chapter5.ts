@@ -1,19 +1,20 @@
 //enum 타입
 //여러가지 값들에 각각 이름을 부여해 열거해두고 사용하는 타입
 enum Role {
-  ADMIn,
+  ADMIN,
   USER,
   GUEST,
 }
-const user1 = {
+const user = {
   name: "rlawodn",
-  role: 0,
+  role: Role.ADMIN,
 };
-const user2 = {
+const user4 = {
   name: "jaewoo",
-  role: 1,
+  role: Role.USER,
 };
 const user3 = {
   name: "아무개",
-  role: 2,
+  role: Role.GUEST,
 };
+console.log(user, user4, user3);

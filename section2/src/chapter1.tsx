@@ -24,4 +24,5 @@ let undefined1: undefined = undefined;
 //
 
 //리터럴
+//리터럴 -> 값
 let numA: 10 = 10;

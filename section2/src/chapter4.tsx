@@ -40,6 +40,7 @@ type CountryNumberCodes = {
   [key: string]: number;
   Korea: number;
 };
+//인덱스 시그치너 벨류 타입과 Korea의 벨류타입이 호환하거나 일치해야한다!
 
 let countryNumberCodes = {
   Korea: 410,
