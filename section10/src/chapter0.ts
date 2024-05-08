@@ -48,10 +48,11 @@ const withThumbnailPost: Required<Post> = {
 type ReadOnly<T> = {
   readonly [key in keyof T]: T[key];
 };
-const readonlyPost: Readonly<Post> = {
+const readonlyPost: ReadOnly<Post> = {
   title: "보호된 게시글입니다",
   tags: [],
   content: "",
+  thumbnailURL: "",
 };
 
 readonlyPost.content = "";
